@@ -1,6 +1,6 @@
 [user]
 	name = Demis Rizzotto
-	email = demis.rizzotto@exxoss.com
+	email = demis.r@me.com
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"

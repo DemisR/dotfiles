@@ -2,13 +2,6 @@
 	name = Demis Rizzotto
 	email = demis.r@me.com
 
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-
 [alias]
 
     # View abbreviated SHA, description, and history graph of the latest 20 commits
@@ -91,7 +84,7 @@
 [core]
 
     # Use custom `.gitignore` and `.gitattributes`
-	excludesfile = /Users/deri/.gitignore_global
+	excludesfile = ~/.gitignore_global
     attributesfile = ~/.gitattributes
 
     # Treat spaces before tabs and all kinds of trailing whitespace as an error

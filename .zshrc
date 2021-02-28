@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/deri/.oh-my-zsh
+export ZSH=/Users/demis.rizzotto/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -45,13 +45,13 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man colorize vagrant virtualenv pip python brew osx zsh-syntax-highlighting docker kubectl aws zsh-autosuggestions terraform docker-compose)
+plugins=(git colorize vagrant virtualenv pip python brew osx zsh-syntax-highlighting docker kubectl aws zsh-autosuggestions terraform docker-compose)
 
 #plugins=(git git-extras git-flow virtualenvwrapper pip python fabric django virtualenv)
 
 # User configuration
 
-#export PATH="/Users/deri/bin/Sencha/Cmd/5.0.3.324:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/MacGPG2/bin"
+#export PATH="/Users/demis.rizzotto/bin/Sencha/Cmd/5.0.3.324:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/local/MacGPG2/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -111,7 +111,7 @@ export PATH="/usr/local/sbin:$PATH"
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -125,3 +125,5 @@ complete -o nospace -C /usr/local/bin/vault vault
 export NVM_DIR=~/.nvm
 source /usr/local/opt/nvm/nvm.sh
 #source $(brew --prefix nvm)/nvm.sh
+
+complete -o nospace -C /usr/local/bin/terraform terraform

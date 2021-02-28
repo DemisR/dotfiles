@@ -114,3 +114,4 @@ alias cat='bat'
 
 alias ping='prettyping --nolegend'
 
+alias cdg1="cd ~/Documents/Gaming1"

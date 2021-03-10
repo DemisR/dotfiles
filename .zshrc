@@ -45,7 +45,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize vagrant virtualenv pip python brew osx zsh-syntax-highlighting docker kubectl aws zsh-autosuggestions terraform docker-compose)
+plugins=(git colorize vagrant virtualenv pip python brew osx zsh-syntax-highlighting docker kubectl aws zsh-autosuggestions terraform docker-compose fzf)
 
 #plugins=(git git-extras git-flow virtualenvwrapper pip python fabric django virtualenv)
 
@@ -127,3 +127,5 @@ source /usr/local/opt/nvm/nvm.sh
 #source $(brew --prefix nvm)/nvm.sh
 
 complete -o nospace -C /usr/local/bin/terraform terraform
+
+source /Users/demis.rizzotto/.config/broot/launcher/bash/br

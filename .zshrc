@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/demis.rizzotto/.oh-my-zsh
+export ZSH=/Users/USERNAME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -107,6 +107,7 @@ unset file;
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 export PATH="/usr/local/sbin:$PATH"
+
 # GO
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
@@ -120,12 +121,6 @@ eval "$(jenv init -)"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/vault vault
-
-# Node version manager
-export NVM_DIR=~/.nvm
-source /usr/local/opt/nvm/nvm.sh
-#source $(brew --prefix nvm)/nvm.sh
-
 complete -o nospace -C /usr/local/bin/terraform terraform
 
-source /Users/demis.rizzotto/.config/broot/launcher/bash/br
+source /Users/USERNAME/.config/broot/launcher/bash/br
